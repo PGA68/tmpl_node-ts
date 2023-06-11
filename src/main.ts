@@ -1,4 +1,4 @@
-import { analytics } from './modules/analytics.mts'
+import { analytics } from './modules/analytics.mjs'
 
 const message = 'Hello NodeJS ++'
 console.log(message)

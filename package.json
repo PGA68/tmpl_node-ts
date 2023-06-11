@@ -5,7 +5,7 @@
   "main": "./src/main.ts",
   "type": "module",
   "scripts": {
-    "start": "npm run build && node ./dest/main.ts",
+    "start": "npm run build && node ./dest/main.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon",
     "build": "rimraf ./dest/ && tsc",

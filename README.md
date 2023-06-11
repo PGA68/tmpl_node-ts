@@ -6,8 +6,9 @@ This set was inspired by Vladilen Minin - https://youtu.be/w2n5HkUNEv4
 
 ___
 
-## How setup
+## Non-obvious adjustments
 
+#### in global space 
 
 ```javscript
 npm i -g eslint@latest typescript@latest
