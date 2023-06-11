@@ -12,6 +12,21 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}/src/main.ts"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Server",
+            "skipFiles": [
+                "/**"
+            ],
+            "runtimeArgs": [
+                "-r",
+                "ts-node/register"
+            ],
+            "args": [
+                "${workspaceFolder}/src/server.ts"
+            ]
         }
     ]
 }
